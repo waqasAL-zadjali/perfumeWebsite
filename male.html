@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/d5efa9bc58.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script src="./Assets/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo"><img src="./Assets/images/pnglogo.png" alt="error"></div>
+        <h1><span style="color: red; font-size: 45px; font-weight: bolder;">PERFUME</span> WEBSITE</h1>
+        <ul class="items" id="navtoggle">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="cat">
+            <a href="#">Categories</a>
+            <ul class="dropdown">
+              <li><a href="male.html">Male</a></li>
+              <li><a href="female.html">Female</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+
+
+
+    <div class="male-container">
+        <div class="maleimg">
+            <img class="maimg" src="./Assets/images/male2.avif" alt="">
+            <div class="male-desc">
+                <h4 style="font-size: 20px; margin: 20px 0; color: peru;">Sale Up To 40% Off</h4>
+                <h2 style="font-size: 30px; margin: 10px 0;">Spring Summer Collection</h2>
+                <h4 style="font-size: 20px;">New Price: <span style="color: peru; font-size: 25px;">Rs 250$ </span></h4>
+                <button style="margin: 50px 10px; padding: 5px 20px; background-color: black; color: white; border: none; outline: none;">Shop Now</button>
+            </div>
+        </div>
+        <div class="maleimg2">
+            <img class="maimg1" src="./Assets/images/men1.jpg" alt="">
+       <div class="male-desc1">
+        <h3>pick your items</h3>
+        <p>Adipiscing elit curabitur senectus sem</p>
+        <button style="margin: 20px 10px; padding: 5px 10px; background-color: black; color: white; border: none; outline: none;">Shop Now</button>
+
+       </div>
+        </div>
+        <div class="maleimg3">
+            <img class="maimg2" src="./Assets/images/men2.jpg" alt="">
+            <div class="male-desc1">
+                <h3>pick your items</h3>
+                <p>Adipiscing elit curabitur senectus sem</p>
+                <button style="margin: 20px 10px; padding: 5px 10px; background-color: black; color: white; border: none; outline: none;">Shop Now</button>
+        
+               </div>
+
+            
+        </div>
+    </div>
+    <div class="cover4"></div>
+
+
+
+    <center><h1>Top Trending</h1></center>
+    <div class="container1">
+        <div class="cards">
+            <div class="cardsimg">
+<img src="./Assets/images/card6.jpg" alt="">
+</div>
+        
+        <div class="star">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="decs">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+            <h3>500$</h3>
+            <button class="card-btn">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="cards">
+        <div class="cardsimg">
+<img src="./Assets/images/card5.jpg" alt="">
+</div>
+    
+    <div class="star">
+        <span style="color: orange;"  class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="decs">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+        <h3>500$</h3>
+        <button class="card-btn">Add To Cart</button>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card4.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card3.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+
+
+
+
+    </div>
+</div>
+
+
+
+    <div data-aos="zoom-in">
+
+    <div class="container1">
+        <div class="cards">
+            <div class="cardsimg">
+<img src="./Assets/images/card2.jpg" alt="">
+</div>
+        
+        <div class="star">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="decs">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+            <h3>500$</h3>
+            <button class="card-btn">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="cards">
+        <div class="cardsimg">
+<img src="./Assets/images/card1.jpg" alt="">
+</div>
+    
+    <div class="star">
+        <span style="color: orange;"  class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="decs">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+        <h3>500$</h3>
+        <button class="card-btn">Add To Cart</button>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card7.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card8.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+ 
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+    </div>
+
+
+
+    <!-- <div data-aos="flip-left">
+        <div class="container">
+         
+            <div class="one">
+              
+                <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner3.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>FRAGRANCE <br>
+                    FOR HER</h1>
+                    <p>It’s a long established fact distract</p>
+                    <button class="btn1"><a href="">Shop Now</a></button>
+            </div>
+        
+      
+            <div class="two">
+              
+                <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner2.jpg" alt="">
+            </div>
+            <div class="heading1">
+                <h1>FRAGRANCE <br>
+                    FOR HER</h1>
+                    <p>It’s a long established fact distract</p>
+                    <button class="btn1"><a href="">Shop Now</a></button>
+                </div>
+            </div>
+       
+        </div> -->
+
+<div class="section-container">
+    <div class="sectione-one">
+        <div class="one1">
+              
+            <img src="./Assets/images/mmm.avif" alt="">
+        </div>
+        <div class="headingone">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+        </div>
+    </div>
+    <div class="section-two">
+        <div class="one1">
+              
+            <img src="./Assets/images/mmm1.avif" alt="">
+        </div>
+        <div class="headingone">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+        </div>
+    </div>
+        <div class="male-section">
+            <div class="male-sectdesc">
+                <h1> <span style="color: red; font-size: 35px; font-weight: bolder;"> Collection </span> Arrived</h1>
+                <p style="color: rgb(247, 232, 215);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo est quibusdam labore, </p>
+                <h3>Price: <span style="font-size: 30px; color: red;">$50</span></h3>
+                <button style="margin-top: 20px; padding: 5px 20px; background-color: black; color: white;">Shop Now</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <center style="padding-top: 150px;"><h1 >MEN <span style="color: red;">Collection</span></h1></center>
+<div class="gallery-border"></div>
+
+<div class="gallery-container">
+ <div class="gallery-cards">
+    <div class="gallery"><img src="./Assets/images/m3.avif" alt=""></div>
+    <div class="galery-desc">
+        <h1>status</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+        <button class="gallery-btn">BUY</button>
+    </div>
+ </div>
+
+ <div class="gallery-cards">
+    <div class="gallery"><img src="./Assets/images/m2.avif" alt=""></div>
+    <div class="galery-desc">
+        <h1>status</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+        <button class="gallery-btn">BUY</button>
+    </div>
+ </div>
+
+ <div class="gallery-cards">
+    <div class="gallery"><img src="./Assets/images/m1.avif" alt=""></div>
+    <div class="galery-desc">
+        <h1>status</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+        <button class="gallery-btn">BUY</button>
+    </div>
+ </div>
+
+
+ 
+ <div class="gallery-cards">
+    <div class="gallery"><img src="./Assets/images/m png1.jpg" alt=""></div>
+    <div class="galery-desc">
+        <h1>status</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+        <button class="gallery-btn">BUY</button>
+    </div>
+ </div>
+
+</div>
+
+
+<div class="gallery-container1">
+    <div class="gallery-cards">
+       <div class="gallery"><img src="./Assets/images/m4.avif" alt=""></div>
+       <div class="galery-desc">
+           <h1>status</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+           <button class="gallery-btn">BUY</button>
+       </div>
+    </div>
+   
+    <div class="gallery-cards">
+       <div class="gallery"><img src="./Assets/./images/m5.avif" alt=""></div>
+       <div class="galery-desc">
+           <h1>status</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+           <button class="gallery-btn">BUY</button>
+       </div>
+    </div>
+   
+    <div class="gallery-cards">
+       <div class="gallery"><img src="./Assets/./images/m6.avif" alt=""></div>
+       <div class="galery-desc">
+           <h1>status</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+           <button class="gallery-btn">BUY</button>
+       </div>
+    </div>
+   
+   
+    
+    <div class="gallery-cards">
+       <div class="gallery"><img src="./Assets/./images/m9.avif" alt=""></div>
+       <div class="galery-desc">
+           <h1>status</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+           <button class="gallery-btn">BUY</button>
+       </div>
+    </div>
+   
+   </div>
+
+
+
+   <div style="margin-top: 20px
+   ;" class="footer">
+    <h1> <span>Perfume</span>   Website</h1>
+    <div class="footer-item">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="">Products</a></li>
+            
+        </ul>
+    </div>
+    <div class="social">
+        <i id="facebook" style="font-size: 30px; padding: 50px 20px 20px 20px;" class="fa-brands fa-facebook"></i>
+        <i id="twitter" style="font-size: 30px; padding: 50px 20px 0 20px;" class="fa-brands fa-square-twitter"></i>
+        <i id="instagram" style="font-size: 30px; padding: 50px 20px 0 20px;" class="fa-brands fa-square-instagram"></i>
+        
+    </div>
+    <center>
+        <input class="search" type="search" placeholder="Search">
+        <p style="color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, aspernatur!</p>
+    </center>
+</div>
+<script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navtoggle');
+      navLinks.classList.toggle('active');
+    }
+  
+      </script>
+</body>
+</html>

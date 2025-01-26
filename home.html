@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/d5efa9bc58.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./Assets/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+ 
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="./Assets/images/pnglogo.png" alt="error"></div>
+        <h1><span style="color: red; font-size: 45px; font-weight: bolder;">PERFUME</span> WEBSITE</h1>
+        <ul class="items" id="navtoggle">
+          <li><a href="">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="cat">
+            <a href="#">Categories</a>
+            <ul class="dropdown">
+              <li><a href="male.html">Male</a></li>
+              <li><a href="female.html">Female</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    <div class="cover2"></div>
+    <!-- <img style="width: 100%; height: 600px;"  src="./Assets/images/nav4.jpg" alt=""> -->
+    <!-- <section class="home">
+        <img style="position: absolute; width: 50%; top: 150px; z-index: -1; opacity: 0.60 ;" src="./Assets/images/icon.png" alt="">
+        <h1>Welcome to Perfume Website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo voluptates </p>
+        <button>Submit</button>
+    </section> -->
+    <div data-aos="fade-right">
+    <h1 class="crousel-heading">INFINITE CAROUSEL</h1>
+<div class="wrap">
+  <div class="window">
+    <div id="carousel">
+      <span class="slide" id="b1"><a href="navbar.html"><img src="./Assets/images/gucci.png" alt=""></a></span>
+      <span class="slide" id="b2"><a href=""><img src="./Assets/images/channel.png" alt=""></a></span>  
+      <span class="slide" id="b3"><a href=""><img src="./Assets/images/skinn.png" alt=""></a></span>
+      <span class="slide" id="b4"><a href=""><img src="./Assets/images/paris.png" alt=""></a></span>  
+      <span class="slide" id="b5"><a href=""><img src="./Assets/images/versace.png" alt=""></a></span>
+
+      <span class="slide" id="b1"><a href="navbar.html"><img src="./Assets/images/gucci.png" alt=""></a></span>
+      <span class="slide" id="b2"><a href=""><img src="./Assets/images/channel.png" alt=""></a></span>  
+      <span class="slide" id="b3"><a href=""><img src="./Assets/images/skinn.png" alt=""></a></span>
+      <span class="slide" id="b4"><a href=""><img src="./Assets/images/paris.png" alt=""></a></span>  
+      <span class="slide" id="b5"><a href=""><img src="./Assets/images/versace.png" alt=""></a></span>
+    </div>
+  </div>
+
+  <center>
+  <span id="prev" class="active"></span>
+  <span id="next"></span>
+  <span id="next1"></span>
+  <span id="next2"></span>
+  <span id="next3"></span>
+</center>
+
+</div>
+</div>
+<div data-aos="flip-left">
+    <div class="container">
+     
+        <div class="one">
+          
+            <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner3.jpg" alt="">
+        </div>
+        <div class="heading">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+        </div>
+    
+  
+        <div class="two">
+          
+            <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner2.jpg" alt="">
+        </div>
+        <div class="heading1">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+            </div>
+        </div>
+   
+    </div>
+    <div data-aos="zoom-in-left">
+
+    <center><h1>Top Trending</h1></center>
+    <div class="container1">
+        <div class="cards">
+            <div class="cardsimg">
+<img src="./Assets/images/card6.jpg" alt="">
+</div>
+        
+        <div class="star">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="decs">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+            <h3>500$</h3>
+            <button class="card-btn">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="cards">
+        <div class="cardsimg">
+<img src="./Assets/images/card5.jpg" alt="">
+</div>
+    
+    <div class="star">
+        <span style="color: orange;"  class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="decs">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+        <h3>500$</h3>
+        <button class="card-btn">Add To Cart</button>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card4.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card3.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+
+
+
+
+    </div>
+</div>
+
+
+
+    <div data-aos="zoom-in">
+
+    <div class="container1">
+        <div class="cards">
+            <div class="cardsimg">
+<img src="./Assets/images/card2.jpg" alt="">
+</div>
+        
+        <div class="star">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="decs">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+            <h3>500$</h3>
+            <button class="card-btn">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="cards">
+        <div class="cardsimg">
+<img src="./Assets/images/card1.jpg" alt="">
+</div>
+    
+    <div class="star">
+        <span style="color: orange;"  class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+    <div class="decs">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+        <h3>500$</h3>
+        <button class="card-btn">Add To Cart</button>
+    </div>
+</div>
+
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card7.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+</div>
+
+
+
+</div>
+<div class="cards">
+    <div class="cardsimg">
+<img src="./Assets/images/card8.jpg" alt="">
+</div>
+
+<div class="star">
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span style="color: orange;" class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+<div class="decs">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorum?</p>
+    <h3>500$</h3>
+    <button class="card-btn">Add To Cart</button>
+ 
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+    </div>
+    <center><button class="btn-cards">Shop Now</button></center>
+   
+
+    
+<section class="home2" >
+<h1 style="color: white; text-align: center; font-size: 35px; padding: 55px 0 6px 0;">Special Product</h1>
+<div class="border"></div>
+<div data-aos="fade-up"
+data-aos-anchor-placement="top-center">
+<div class="carousel1">
+    <div class="carousel-container1">
+        <div class="carousel-item1">
+            <img src="./Assets/images/png3.jpg" alt="Image 1">
+            <div class="cards-desc">
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <h3>Crads Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, expedita.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium corrupti ratione voluptates, perferendis veritatis, ducimus excepturi repudiandae quam a doloremque magni, eum recusandae reprehenderit quas delectus perspiciatis. Dicta iste at voluptate quidem distinctio! Quas, quod aperiam! Cum, iusto est.</p>
+                <h2 style="color: red;">Rs 500$</h2>
+                <button class="btn-cards">Shop Now</button>
+            </div>
+        </div>
+        <div class="carousel-item1">
+            <img src="./Assets/images/png4.jpg" alt="Image 2">
+            <div class="cards-desc">
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <h3>Crads Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, expedita.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium corrupti ratione voluptates, perferendis veritatis, ducimus excepturi repudiandae quam a doloremque magni, eum recusandae reprehenderit quas delectus perspiciatis. Dicta iste at voluptate quidem distinctio! Quas, quod aperiam! Cum, iusto est.</p>
+                <h2 style="color: red;">Rs 500$</h2>
+                <button class="btn-cards">Shop Now</button>
+            </div>
+        </div>
+        <div class="carousel-item1">
+            <img src="./Assets/images/png1.avif" alt="Image 3">
+            <div class="cards-desc">
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <span style="color: orange;" class="fa fa-star checked"></span>
+                <h3>Crads Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, expedita.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium corrupti ratione voluptates, perferendis veritatis, ducimus excepturi repudiandae quam a doloremque magni, eum recusandae reprehenderit quas delectus perspiciatis. Dicta iste at voluptate quidem distinctio! Quas, quod aperiam! Cum, iusto est.</p>
+                <h2 style="color:red">Rs 500$</h2>
+                <button class="btn-cards">Shop Now</button>
+            </div>
+        </div>
+        <!-- Add more items as needed -->
+    </div>
+</div>
+</div>
+<center>
+<button id="prev10">Previous</button>
+<button id="next10">Next</button>
+</center>
+
+
+
+</section>
+<center style="padding: 20px;"><h1>Special Offer</h1></center>
+<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
+<div class="flex-container">
+<div class="flex-card">
+    <img src="./Assets/images/car21.jpg" alt="">
+    <div class="flex-desc">
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+        <h3>20$</h3>
+    </div>
+</div>
+<div class="flex-card">
+    <img src="./Assets/images/car22.jpg" alt="">
+    <div class="flex-desc">
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+        <h3>20$</h3>
+    </div>
+</div>
+<div class="flex-card">
+    <img src="./Assets/images/car23.jpg" alt="">
+    <div class="flex-desc">
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <span style="color: orange;" class="fa fa-star checked"></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+        <h3>20$</h3>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<div class="flex-container">
+    <div class="flex-card">
+        <img src="./Assets/images/car24.jpg" alt="">
+        <div class="flex-desc">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            <h3>20$</h3>
+        </div>
+    </div>
+    <div class="flex-card">
+        <img src="./Assets/images/card8.jpg" alt="">
+        <div class="flex-desc">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            <h3>20$</h3>
+        </div>
+    </div>
+    <div class="flex-card">
+        <img src="./Assets/images/card2.jpg" alt="">
+        <div class="flex-desc">
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <span style="color: orange;" class="fa fa-star checked"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            <h3>20$</h3>
+        </div>
+    </div>
+    </div>
+    <center><button class="btn-cards">Shop Now</button></center>
+</div>
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
+    <div class="container">
+        <div class="one">
+          
+            <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner4.jpg" alt="">
+        </div>
+        <div class="heading">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+        </div>
+        <div class="two">
+          
+            <img src="https://demo-62.woovinapro.com/wp-content/uploads/2022/05/banner1.jpg" alt="">
+        </div>
+        <div class="heading1">
+            <h1>FRAGRANCE <br>
+                FOR HER</h1>
+                <p>It’s a long established fact distract</p>
+                <button class="btn1"><a href="">Shop Now</a></button>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div class="footer">
+        <h1> <span>Perfume</span>   Website</h1>
+        <div class="footer-item">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <i id="facebook" style="font-size: 30px; padding: 50px 20px 20px 20px;" class="fa-brands fa-facebook"></i>
+            <i id="twitter" style="font-size: 30px; padding: 50px 20px 0 20px;" class="fa-brands fa-square-twitter"></i>
+            <i id="instagram" style="font-size: 30px; padding: 50px 20px 0 20px;" class="fa-brands fa-square-instagram"></i>
+            
+        </div>
+        <center>
+            <input class="search" type="search" placeholder="Search">
+            <p style="color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, aspernatur!</p>
+        </center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var carousel = $('#carousel'),
+    threshold = 100,
+    slideWidth = 100,
+    dragStart, 
+    dragEnd;
+
+$('#next').click(function(){ shiftSlide(-1) })
+$('#next1').click(function(){ shiftSlide(-1) })
+$('#next2').click(function(){ shiftSlide(-1) })
+$('#next3').click(function(){ shiftSlide(-1) })
+$('#prev').click(function(){ shiftSlide(1) })
+
+carousel.on('mousedown', function(){
+  if (carousel.hasClass('transition')) return;
+  dragStart = event.pageX;
+  $(this).on('mousemove', function(){
+    dragEnd = event.pageX;
+    $(this).css('transform','translateX('+ dragPos() +'px)')
+  })
+  $(document).on('mouseup', function(){
+    if (dragPos() > threshold) { return shiftSlide(1) }
+    if (dragPos() < -threshold) { return shiftSlide(-1) }
+    shiftSlide(0);
+  })
+});
+
+function dragPos() {
+  return dragEnd - dragStart;
+}
+
+function shiftSlide(direction) {
+  if (carousel.hasClass('transition')) return;
+  dragEnd = dragStart;
+  $(document).off('mouseup')
+  carousel.off('mousemove')
+          .addClass('transition')
+          .css('transform','translateX(' + (direction * slideWidth) + 'px)'); 
+  setTimeout(function(){
+    if (direction === 1) {
+      $('.slide:first').before($('.slide:last'));
+    } else if (direction === -1) {
+      $('.slide:last').after($('.slide:first'));
+    }
+    carousel.removeClass('transition')
+		carousel.css('transform','translateX(0px)'); 
+  },700)
+}
+
+
+
+
+
+
+
+
+
+const carousel1 = document.querySelector('.carousel1');
+        const container = document.querySelector('.carousel-container1');
+        const items = document.querySelectorAll('.carousel-item1');
+        const prevButton = document.getElementById('prev10');
+        const nextButton = document.getElementById('next10');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            container.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < items.length - 1) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  AOS.init();
+
+
+  function toggleMenu() {
+    const navLinks = document.getElementById('navtoggle');
+    navLinks.classList.toggle('active');
+  }
+
+    </script>
+
+
+
+
+</body>
+</html>
